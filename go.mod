@@ -1,11 +1,13 @@
 module github.com/devfullcycle/gointensivo/20/desafio-clean-architecture
 
-go 1.25.5
+go 1.24.0
 
 require (
 	github.com/99designs/gqlgen v0.17.86
 	github.com/go-sql-driver/mysql v1.9.3
 	github.com/vektah/gqlparser/v2 v2.5.31
+	google.golang.org/grpc v1.74.2
+	google.golang.org/protobuf v1.36.11
 )
 
 require (
@@ -19,7 +21,10 @@ require (
 	github.com/sosodev/duration v1.3.1 // indirect
 	github.com/urfave/cli/v3 v3.6.1 // indirect
 	golang.org/x/mod v0.31.0 // indirect
+	golang.org/x/net v0.48.0 // indirect
 	golang.org/x/sync v0.19.0 // indirect
+	golang.org/x/sys v0.39.0 // indirect
 	golang.org/x/text v0.33.0 // indirect
 	golang.org/x/tools v0.40.0 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20250528174236-200df99c418a // indirect
 )
